@@ -75,6 +75,11 @@ CREATE TABLE movimentacao (
    
 );
 
+CREATE TABLE login (
+	id_login INT AUTO_INCREMENT PRIMARY KEY,
+    usuario varchar(20),
+    senha varchar(30)
+);
 
 select * from exemplar;
 
